@@ -70,6 +70,7 @@ router.post("/", async (req, res) => {
       .send();
   } catch (err) {
     res.status(500).send();
+    console.log(err);
   }
 });
 
@@ -126,6 +127,7 @@ router.post("/login", async (req, res) => {
       .send();
   } catch (err) {
     res.status(500).send();
+    console.log(err);
   }
 });
 
