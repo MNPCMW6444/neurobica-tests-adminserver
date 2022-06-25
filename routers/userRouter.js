@@ -75,7 +75,6 @@ router.post("/", async (req, res) => {
 });
 
 router.post("/login", async (req, res) => {
-  console.log("login log");
   try {
     const { email, password } = req.body;
 
